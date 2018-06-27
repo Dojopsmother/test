@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Layouts</title>
+	<meta name="description" content="What show on google">
+	
+	<style>
+
+	body *{
+		outline: 1px solid pink;
+	}
+
+	div.container {
+		width: 980px;
+		min-height:800px;
+		background-color: blue;
+		margin: 0px auto;
+	}
+
+		div.container div.top{
+			min-height: 100px;
+			background-color: red;
+		}
+		
+			div.container div.top div.image{
+				width: 700px;
+				display: inline-block;
+				vertical-align: top;
+			}
+			
+			div.container div.top div.ul{
+				display: inline-block;
+			}
+
+			div.container div.top ul li{
+				display: inline-block;
+				font-size:24px;
+				padding: 10px;
+			}
+
+		div.container h1{
+			text-align: center;
+		}
+
+		div.container div.bottom{
+			min-height:400px;
+			background-color: green;
+		}
+
+		div.container div.message{
+			display:inline-block;
+			vertical-align: top;
+			width: 292px;
+			padding:10px;
+			margin:5px;
+			min-height:400px;
+			background-color: pink;
+			min-height: 300px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="top">
+			<div class="image">placeholder
+				<ul>
+					<li>firstbox</li>
+					<li>2ndbox</li>
+					<li>3rdbox</li>
+				</ul>
+			</div>
+		</div>
+
+		<h1>this is the h1 header</h1>
+
+		<div class="bottom">
+
+			<div class="message">message
+				<div class='image'>placeholder</div>
+				<h2>FIRST,ANALYZE</h2>
+				<h3>Adwords</h3>
+				<p>adf: 2ffagdagdga</p>
+				<a href="">Grade your account</a>
+			</div>
+
+			<div class="message">message
+				<div class='image'>placeholder</div>
+				<h2>FIRST,ANALYZE</h2>
+				<h3>Adwords</h3>
+				<p>adf: 2ffagdagdga</p>
+				<a href="">Grade your account</a>
+			</div>
+
+			<div class="message">message
+				<div class='image'>placeholder</div>
+				<h2>FIRST,ANALYZE</h2>
+				<h3>Adwords</h3>
+				<p>adf: 2ffagdagdga</p>
+				<a href="">Grade your account</a>
+			</div>
+		</div>
+	</div>
+	
+</html>
